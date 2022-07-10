@@ -1,0 +1,7 @@
+Git hub and git bash commands
+
+Git bash 
+1. for entering user name - git config --global user.name " "
+2. for entering email     - git config --global user.email " "
+3. to check either type git config --list or git  config user.name/email
+
