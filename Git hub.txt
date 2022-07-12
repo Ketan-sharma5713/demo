@@ -5,3 +5,31 @@ Git bash
 2. for entering email     - git config --global user.email " "
 3. to check either type git config --list or git  config user.name/email
 
+Git hub and git bash commands
+
+Git bash 
+1. for entering user name - git config --global user.name " "
+2. for entering email     - git config --global user.email " "
+3. to check either type git config --list or git  config user.name/email
+4. to create a new file - touch "filename".txt (no use of specialcharacter and inverted comma)
+5. git status (gives information if the folder)
+6. to make a folder a git repository givee command - "git init" (initialize) it will create a hidden folder with .git name
+   if we will check the status then it will show untracked files
+7. agar hum chahte hain ki git hamari files ko track kare to hune un files ko track files karna padega 
+   file track karne se yeh fayda hoga ki hum jo bhi modification ya changes karenge file mein vo git track karega aur unki sari information rakhega 
+
+8. jo bhi file track karni ho uske lie command deni padegi --> git add file1.txt (file1 name ki file ab add hoke track hone lagegi)
+9. Git add . (this command will track all[tacked and untracked files] the files )
+10. to keep files in the repository we will have to commit the files. (Commit tells that ab ye files hamari  remote repository mein aane ke liye tayyar hain
+11. to coommit the file we have to give the command --> git commit -m "message you would like to give " ****
+    it will show that you are on the master  branch and working tree clean (which means that abbhi tak isme koi additional branches add nahi hui hai na hi koi changes hue h
+
+12. jo bhi  changes file mein honge uske baad repository mein vo changes dekhne ke lie dobara commit command deni padegi
+
+13. to add file from the folder to the repository give command --> git remote add origin (then copy liink of the repository and paste it)*
+    yo will get the link from code menu
+    now if we will fire git remote command then it will  show origin
+14. to push the files in the repository we will fire the command --> git push -u origin master (it will push the master branch in the origin )
+
+15. agar hum chahte h ki git kisi file ki info ko track kare to us file ko pahle add karna padega
+   commands used till now --> git init , git add , git commit -m "  " ,git remoter add origin "url", git push -u origin master 
